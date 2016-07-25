@@ -49,8 +49,7 @@ public class ActorArrayAdapter extends BaseAdapter{
 
         nameTextView.setText(curActor.getName());
         dobTextView.setText(curActor.getDob());
-        oscarsTextView.setText(curActor.getOscars());
-
+        oscarsTextView.setText(String.valueOf(curActor.getOscars()));
 
 
         return null;
